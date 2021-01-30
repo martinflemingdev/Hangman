@@ -1,5 +1,5 @@
 # Hangman
-Java Hangman console window game created in Eclipse IDE.
+Java Hangman console window game created by me on 1/30/2021 in Eclipse IDE.
 
 Includes:
 
