@@ -1,4 +1,5 @@
-package hangmanpackage;
+package Hangman;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +16,7 @@ public class Hangman{
 	public static List<String> guessedLetters;
 	public static int guesses;
 	
-	//create instances to begin game
+	//create class instances to begin game
 	public static Scanner scanner = new Scanner(System.in);
 	public static String answer = "y";
 	
@@ -31,7 +32,7 @@ public class Hangman{
 			playHangman();
 			System.out.println("Play again? (y)es or (n)o");
 			answer = scanner.next().toLowerCase();
-		} System.out.println("Thanks for playing! :-)");
+		} System.out.println("Thanks for playing! :-) Created by Martin Fleming 1.31.2021");
 		scanner.close();
 	}
 		

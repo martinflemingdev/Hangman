@@ -1,4 +1,5 @@
-package hangmanpackage;
+package Hangman;
+
 
 public class Gameword {
 
