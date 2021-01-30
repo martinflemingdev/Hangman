@@ -1,6 +1,5 @@
 package Hangman;
 
-
 public class Gameword {
 
 	private String word;

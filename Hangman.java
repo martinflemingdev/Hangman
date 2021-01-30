@@ -1,6 +1,5 @@
 package Hangman;
 
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -36,20 +35,20 @@ public class Hangman{
 		scanner.close();
 	}
 		
-		public static void playHangman() {
-			while (guesses < 6 && targetWordInProgress.contains("_")) {
-				System.out.println("Guess a letter in this word and press enter!");
-				System.out.println(targetWordInProgress.toUpperCase().replace("", " ").trim());
-				String letter = scanner.next().toLowerCase();
-				while (letter.length() > 1) {
-					System.out.println("Please only enter 1 letter and press enter!");
-					letter = scanner.next().toLowerCase();
-				}
-				guessedLetters.add(letter);
-				guess(letter);
-				System.out.print("Letters guessed: ");
-				for (String guess : guessedLetters) {
-					System.out.print(guess.toUpperCase() + " ");
+	public static void playHangman() {
+		while (guesses < 6 && targetWordInProgress.contains("_")) {
+			System.out.println("Guess a letter in this word and press enter!");
+			System.out.println(targetWordInProgress.toUpperCase().replace("", " ").trim());
+			String letter = scanner.next().toLowerCase();
+			while (letter.length() > 1) {
+				System.out.println("Please only enter 1 letter and press enter!");
+				letter = scanner.next().toLowerCase();
+			}
+			guessedLetters.add(letter);
+			guess(letter);
+			System.out.print("Letters guessed: ");
+			for (String guess : guessedLetters) {
+				System.out.print(guess.toUpperCase() + " ");
 				} System.out.println("");
 			} 
 		}
@@ -72,7 +71,7 @@ public class Hangman{
 				printGallows();
 		} else {
 			targetWordInProgress = inProgress;
-		}
+		} 
 		if (targetWordInProgress.equals(targetWord)) {
 			System.out.println("You have guessed the word! It was " + targetWord.toUpperCase()
 			+ "! Congratulations!");
