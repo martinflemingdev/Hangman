@@ -9,6 +9,8 @@ Gameword.java class file that has 200 "difficult" hangman words and method to ra
 
 Classic dashed line representation of mystery word ( _ _ _ _ _ ) updated as you go.
 
+ASCII art of the hangman progress.
+
 A "Letter's guessed" section above the word showing letters guessed so far.
 
 Ability to play again after a win/loss.
