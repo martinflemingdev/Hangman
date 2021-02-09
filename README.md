@@ -3,7 +3,7 @@ Java Hangman console window game created by me on 1/30/2021 in Eclipse IDE.
 
 Run as Java Application from Hangman.java class file.
 
-Includes:
+Features:
 
 Gameword.java class file that has 200 "difficult" hangman words and method to randomly pick one.
 
