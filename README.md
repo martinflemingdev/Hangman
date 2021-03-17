@@ -1,6 +1,6 @@
 # Hangman
 
-* Created a Java Hangman console window game in Eclipse IDE.
+Programmed the classic Hangman game in Java as a console line application in Eclipse IDE!
 
 ## Features:
 
